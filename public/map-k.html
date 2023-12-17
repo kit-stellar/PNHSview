@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PNHS | VTOUR</title>
+        <link rel="stylesheet" href="/src/w3.css" type="text/css">
+    </head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap');
+
+        body {
+            background-color: rgb(249, 87, 56);
+        }
+
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 800;
+        }
+        p {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+        }
+        #navchild {
+            background-color: rgb(0, 0, 0);
+            opacity:100%;
+        }
+        #homebtn {
+            margin-top:80px;
+            margin-left:20px;
+            position:fixed;
+            z-index:1;
+            border-radius: 100%;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+            transition: box-shadow 0.3s ease-in-out;
+        }
+        #homebtn:hover {
+            box-shadow: 0 5px 1px rgba(0,0,0,0.3);
+        }
+        #mapbtn {
+            margin-top:80px;
+            margin-left:70px;
+            position:fixed;
+            z-index:1;
+            border-radius: 100%;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+            transition: box-shadow 0.3s ease-in-out;
+        }
+        #mapbtn:hover {
+            box-shadow: 0 5px 1px rgba(0,0,0,0.3);
+        }
+    </style>
+    <body>
+<!--NAV-->
+<div id="navmother" style="position:fixed;width:100%;z-index:1;">
+    <div id="navchild" class="w3-padding">
+        <div style="width:420px;margin-top:1px;margin-left:10px;color:white;">
+            <p>Peñaranda National High School | Virtual Tour</p>
+        </div>
+    </div>
+</div>
+<!--NAVEND-->
+<!--NAV Button-->
+<div id="homebtn">
+    <a href="index.html"><img src="/assets/images/icons8-home.png" width="40px"></a>
+</div>
+<div id="mapbtn">
+    <a href="jica.html"><img src="/assets/images/icons8-x.png" width="40px"></a>
+</div>
+<!--NAV Button End-->
+<!--DROPDOWN-->
+
+<div class="w3-dropdown-hover" style="position:fixed;margin-top:135px;background-color:rgb(244, 211, 94);z-index:5;">
+    <button class="w3-button">Grade 12  ►</button>
+    <div class="w3-dropdown-content w3-bar-block w3-border">
+      <a href="dep2.html" class="w3-bar-item w3-button">STEM</a>
+      <a href="dep2.html" class="w3-bar-item w3-button">ABM</a>
+      <a href="dep3.html" class="w3-bar-item w3-button">HUMSS</a>
+      <a href="dep3.html" class="w3-bar-item w3-button">ICT</a>
+      <a href="tvl-q.html" class="w3-bar-item w3-button">HE</a>
+      <a href="dep3.html" class="w3-bar-item w3-button">GAS</a>
+    </div>
+  </div>
+
+  <div class="w3-dropdown-hover" style="position:fixed;margin-top:180px;background-color:rgb(244, 211, 94);z-index:4;">
+    <button class="w3-button">Grade 11  ►</button>
+    <div class="w3-dropdown-content w3-bar-block w3-border">
+        <a href="dep1.html" class="w3-bar-item w3-button">STEM</a>
+        <a href="dep3.html" class="w3-bar-item w3-button">ABM</a>
+        <a href="dep2.html" class="w3-bar-item w3-button">HUMSS</a>
+        <a href="dep1.html" class="w3-bar-item w3-button">ICT</a>
+        <a href="dep3.html" class="w3-bar-item w3-button">HE</a>
+        <a href="dep3.html" class="w3-bar-item w3-button">GAS</a>
+    </div>
+  </div>
+
+  <div class="w3-dropdown-hover" style="position:fixed;margin-top:225px;background-color:rgb(244, 211, 94);z-index:3;">
+    <button class="w3-button">SP-ICT Section    ►</button>
+    <div class="w3-dropdown-content w3-bar-block w3-border">
+      <a href="tvl-r.html" class="w3-bar-item w3-button">Grade 7</a>
+      <a href="tvl-r.html" class="w3-bar-item w3-button">Grade 8</a>
+      <a href="tvl-r.html" class="w3-bar-item w3-button">Grade 9</a>
+      <a href="tvl-r.html" class="w3-bar-item w3-button">Grade 10</a>
+    </div>
+  </div>
+
+  <div class="w3-dropdown-hover" style="position:fixed;margin-top:270px;background-color:rgb(244, 211, 94);z-index:2;">
+    <button class="w3-button">STE Section  ►</button>
+    <div class="w3-dropdown-content w3-bar-block w3-border">
+        <a href="ste.html" class="w3-bar-item w3-button">Grade 7</a>
+        <a href="ste.html" class="w3-bar-item w3-button">Grade 8</a>
+        <a href="ste.html" class="w3-bar-item w3-button">Grade 9</a>
+        <a href="ste.html" class="w3-bar-item w3-button">Grade 10</a>
+    </div>
+  </div>
+
+  <div class="w3-dropdown-hover" style="position:fixed;margin-top:315px;background-color:rgb(244, 211, 94);z-index:1;">
+    <button class="w3-button">Regular Section  ►</button>
+    <div class="w3-dropdown-content w3-bar-block w3-border">
+        <a href="bypass.html" class="w3-bar-item w3-button">Grade 7</a>
+        <a href="grade8.html" class="w3-bar-item w3-button">Grade 8</a>
+        <a href="math.html" class="w3-bar-item w3-button">Grade 9</a>
+        <a href="jica.html" class="w3-bar-item w3-button">Grade 10</a>
+    </div>
+  </div>
+
+  <div class="w3-dropdown-hover" style="position:fixed;margin-top:360px;background-color:rgb(244, 211, 94);">
+    <button class="w3-button">Offices  ►</button>
+    <div class="w3-dropdown-content w3-bar-block w3-border">
+        <a href="gate.html" class="w3-bar-item w3-button">NEUST POC Office</a>
+        <a href="monument.html" class="w3-bar-item w3-button">Office of the Principal</a>
+        <a href="shs.html" class="w3-bar-item w3-button">Office of the Registrar</a>
+        <a href="monument.html" class="w3-bar-item w3-button">Guidance Office</a>
+        <a href="pathwayd.html" class="w3-bar-item w3-button">Clinic</a>
+    </div>
+  </div>
+<!--DROPDOWN END-->
+
+    <div>
+        <img src="/assets/images/map/k.jpg" width="100%" usemap="#image-map" style="padding:50px;margin-top:80px;">
+    </div>
+
+<map name="image-map">
+    <area target="" href="jica.html" coords="287,98,299,78,286,63,276,76" shape="poly">
+    <area target="" href="gate.html" coords="108,117,123,95,107,77,96,95" shape="poly">
+    <area target="" href="shs.html" coords="544,87,559,65,543,44,529,65" shape="poly">
+    <area target="" href="dep1.html" coords="677,46,691,65,678,83,666,63" shape="poly">
+    <area target="" href="dep2.html" coords="835,85,848,63,834,45,820,62" shape="poly">
+    <area target="" href="dep3.html" coords="1041,41,1053,55,1042,79,1028,54" shape="poly">
+    <area target="" href="grade8.html" coords="399,256,412,231,397,217,385,231" shape="poly">
+    <area target="" href="bypass.html" coords="469,249,483,229,470,213,459,227" shape="poly">
+    <area target="" href="tvl-q.html" coords="604,282,618,257,605,240,593,254" shape="poly">
+    <area target="" href="gym.html" coords="107,352,120,331,106,317,96,329" shape="poly">
+    <area target="" href="monument.html" coords="177,504,190,480,176,466,163,477" shape="poly">
+    <area target="" href="canteen.html" coords="413,487,423,464,414,449,399,463" shape="poly">
+    <area target="" href="pathwayd.html" coords="299,536,314,513,298,499,285,512" shape="poly">
+    <area target="" href="umali.html" coords="835,454,846,427,834,417,821,428" shape="poly">
+    <area target="" href="ste.html" coords="399,617,410,589,398,579,387,591" shape="poly">
+    <area target="" href="math.html" coords="223,664,232,642,221,626,208,643" shape="poly">
+</map>
+    </body>
+</html>
