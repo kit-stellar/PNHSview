@@ -22,6 +22,15 @@
         <link rel="stylesheet" href="src/style.css" type="text/css">
     </head>
     <body>
+        <div class="notify" id="popup">
+            <h2 class="head-about">
+                Just a heads up...
+            </h2>
+            <p class="p-about">
+                The site might be unresponsive in mobile, photos may not fit on your phone.
+            </p>
+            <button onclick="hidePopup()" class="w3-button w3-yellow w3-hover-white">Continue</button>
+        </div>
         <nav>
         <div class="nwidth">
             <div>
@@ -65,5 +74,13 @@
             </div>
             <div class="socializer a sr-32px sr-circle sr-opacity sr-icon-dark sr-bg-none sr-sw-1 sr-pad"><span class="sr-facebook"><a href="https://www.facebook.com/penarandanhs" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></span><span class="sr-email"><a href="mailto:300832@deped.gov.ph" target="_blank" title="Email"><i class="fa fa-envelope"></i></a></span></div>
         </footer>
+        
+        <script>
+            function hidePopup() {
+                var popup = document.getElementById("popup");
+                popup.style.display = "none";
+            }
+        </script>
+
     </body>
 </html>

@@ -64,6 +64,9 @@
     .nbutton {
         flex-direction: column;
     }
+    .notify {
+        display: none;
+    }
 }
 @media screen and (min-width: 700px) and (max-width: 800px) {
     .vid {
@@ -78,6 +81,9 @@
     }
     .nbutton {
         flex-direction: row;
+    }
+    .notify {
+        display: none;
     }
 }
 @media screen and (min-width: 801px) and (max-width: 966px) {
@@ -94,6 +100,9 @@
     .nbutton {
         flex-direction: row;
     }
+    .notify {
+        display: none;
+    }
 }
 @media screen and (min-width: 967px) and (max-width: 1146px) {
     .vid {
@@ -109,6 +118,9 @@
     .nbutton {
         flex-direction: row;
     }
+    .notify {
+        display: none;
+    }
 }
 @media screen and (min-width: 1147px) and (max-width: 1270px) {
     .vid {
@@ -123,6 +135,9 @@
     }
     .nbutton {
         flex-direction: row;
+    }
+    .notify {
+        display: none;
     }
 }
 
@@ -142,6 +157,7 @@ nav {
     width: 100%;
     z-index: 1;
     position: fixed;
+    top: 0%;
 }
 .nwidth {
     width: 100%;
@@ -204,4 +220,21 @@ p {
     flex-wrap: nowrap;
     justify-content: center;
     gap: 100px;
+}
+.notify {
+    z-index: 2;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    background-color: #ee2424 !important;
+    padding: 70px;
+    position: fixed;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+}
+.notify:first-child {
+    left: 50%;
+    right: 50%;
+    bottom: 0;
 }
