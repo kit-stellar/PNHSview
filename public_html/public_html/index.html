@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Peñaranda National High School Virtual Tour offers an exclusive 360 degrees panoramic photos and map inside the school which can help you navigate.">
+        <meta name="keywords" content="virtual, tour, PNHS">
+        <meta name="author" content="Kurt Arguelles">
+        <meta property="og:title" content="Peñaranda National High School | Virtual Tour">
+        <meta property="og:site_name" content="Peñaranda National High School | Virtual Tour">
+        <meta property="og:url" content="pnhsview.000webhostapp.com/">
+        <meta property="og:description" content="Peñaranda National High School Virtual Tour offers an exclusive 360 degrees panoramic photos and map inside the school which can help you navigate.">
+        <meta property="og:image" content="https://pnhsview.000webhostapp.com/assets/images/b3.jpg">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Peñaranda National High School | Virtual Tour</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon_io/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon_io/favicon-16x16.png">
+        <link rel="manifest" href="assets/images/favicon_io/site.webmanifest">
+        <link rel="stylesheet" href="src/w3.css" type="text/css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/vaakash/socializer@2f749eb/css/socializer.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+        <link rel="stylesheet" href="src/style.css" type="text/css">
+    </head>
+    <body>
+        <div class="notify" id="popup">
+            <h2 class="head-about">
+                Just a heads up...
+            </h2>
+            <p class="p-about">
+                The site might be unresponsive in mobile, photos may not fit on your phone.
+            </p>
+            <button onclick="hidePopup()" class="w3-button w3-yellow w3-hover-white">Continue</button>
+        </div>
+        <nav>
+        <div class="nwidth">
+            <div>
+                <a href="index.html"><img class="nlogo" src="assets/images/pnhs-logo.png"></a>
+            </div>
+            <div>
+                <h2 class="primary-head">Peñaranda National High School <br> Virtual Tour</h2>
+            </div>
+            <div class="nbutton">
+                <a href="gym.html"><button class="w3-button w3-yellow w3-hover-white">Start View</button></a>
+                <a href="#about"><button class="w3-button w3-hover-white">About Us</button></a>
+            </div>
+        </div>
+        </nav>
+        <section>
+            <div class="vid">
+                <video autoplay muted loop width="100%" oncontextmenu="return false">
+                    <source src="assets/videos/header.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="vid-header">
+                <h2 class="head-about">Welcome To <span style="color:#f95738;">PNHS</span>!</h2>
+                <p class="p-about">Your stay here is welcome, have a look inside using panoramic <br> images and with a map of the whole school.</p>
+            </div>
+            <div id="about" class="w3-padding" style="text-align:center;color:#fff;">
+                <h2 class="head-about">About Us</h2>
+                <p class="p-about">At Peñaranda National High School, they are committed to offering a supportive and welcoming learning environment that encourages academic performance, individual development, and lifelong learning. You can look around our school using our virtual tour and get a sense of the special opportunities and active community that characterize it.<br><br>We hope that this virtual tour will give you an idea of the rich tapestry of academic and personal development that defines PNHS, whether you are a prospective student, parent, or simply an interested visitor. </p>
+            </div>
+            <div class="w3-padding" style="color:#fff;">
+                <h2 class="head-about">The Creators</h2>
+                <p class="p-about">This project is a requirement for Computer Programming class, it was made by Group 2 of the Babbage class 2022-2023. Through this project, we hope to demonstrate the technical knowledge, problem-solving ability, and effective collaboration that are necessary for success in the computer programming industry.</p>
+            </div>
+            <div id="devs-center">
+                <img id="devs" src="assets/images/devs.png">
+            </div>
+        </section>
+        <footer id="social-footer" class="contain-footer">
+            <div>
+                <p style="text-align:center;font-size:10px;">Materials used are from Peñaranda National High School Facebook Page, no copyright infringement intended. | Babbage 2022 - 2023 All Rights Reserved.</p>
+            </div>
+            <div class="socializer a sr-32px sr-circle sr-opacity sr-icon-dark sr-bg-none sr-sw-1 sr-pad"><span class="sr-facebook"><a href="https://www.facebook.com/penarandanhs" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></span><span class="sr-email"><a href="mailto:300832@deped.gov.ph" target="_blank" title="Email"><i class="fa fa-envelope"></i></a></span></div>
+        </footer>
+        
+        <script>
+            function hidePopup() {
+                var popup = document.getElementById("popup");
+                popup.style.display = "none";
+            }
+        </script>
+
+    </body>
+</html>
